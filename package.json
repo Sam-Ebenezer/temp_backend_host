@@ -1,0 +1,24 @@
+{
+  "homepage": "https://Sam-Ebenezer.github.io/temp_backend_host",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
